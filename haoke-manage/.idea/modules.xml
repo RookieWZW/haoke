@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage.iml" filepath="$PROJECT_DIR$/haoke-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-api-server/haoke-manage-api-server.iml" filepath="$PROJECT_DIR$/haoke-manage-api-server/haoke-manage-api-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server.iml" filepath="$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-generator/haoke-manage-dubbo-server-generator.iml" filepath="$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-generator/haoke-manage-dubbo-server-generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources.iml" filepath="$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources-dubbo-interface/haoke-manage-dubbo-server-house-resources-dubbo-interface.iml" filepath="$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources-dubbo-interface/haoke-manage-dubbo-server-house-resources-dubbo-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources-dubbo-service/haoke-manage-dubbo-server-house-resources-dubbo-service.iml" filepath="$PROJECT_DIR$/haoke-manage-dubbo-server/haoke-manage-dubbo-server-house-resources/haoke-manage-dubbo-server-house-resources-dubbo-service/haoke-manage-dubbo-server-house-resources-dubbo-service.iml" />
+    </modules>
+  </component>
+</project>
