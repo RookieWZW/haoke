@@ -1,7 +1,10 @@
 package cn.haoke.dubbo.api.service;
 
+import cn.haoke.dubbo.api.vo.Pagination;
+import cn.haoke.dubbo.api.vo.TableResult;
 import cn.haoke.dubbo.server.api.ApiHouseResourcesService;
 import cn.haoke.dubbo.server.pojo.HouseResources;
+import cn.haoke.dubbo.server.vo.PageInfo;
 import com.alibaba.dubbo.config.annotation.Reference;
 import org.springframework.stereotype.Service;
 
@@ -19,5 +22,15 @@ public class HouseResourcesService {
         int result =
                 this.apiHouseResourcesService.saveHouseResources(houseResources);
         return result == 1;
+    }
+
+    public TableResult queryList(HouseResources houseResources, Integer currentPage, Integer pageSize) {
+        PageInfo<HouseResources> pageInfo = this.apiHouseResourcesService.queryHouseResourcesList(currentPage, pageSize, houseResources);
+
+        return new TableResult(pageInfo.getRecords(), new Pagination(currentPage, pageSize, pageInfo.getTotal()));
+    }
+
+    public HouseResources queryById(Long id) {
+        return apiHouseResourcesService.queryHouseResourcesById(id);
     }
 }

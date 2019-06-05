@@ -14,7 +14,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="haoke-manage" target="1.8" />
-      <module name="haoke-manage-api-server" target="1.5" />
+      <module name="haoke-manage-api-server" target="1.8" />
       <module name="haoke-manage-dubbo-server" target="1.8" />
       <module name="haoke-manage-dubbo-server-generator" target="1.8" />
       <module name="haoke-manage-dubbo-server-house-resources" target="1.8" />

@@ -14,7 +14,7 @@ import java.util.List;
  * Created by RookieWangZhiWei on 2019/6/4.
  */
 
-public abstract class BaseServiceImpl<T extends BasePojo>{
+public abstract class BaseServiceImpl<T extends BasePojo> {
 
     @Autowired
     private BaseMapper<T> mapper;
@@ -126,4 +126,17 @@ public abstract class BaseServiceImpl<T extends BasePojo>{
     }
 
 
+    /**
+     * 根据条件分页查询数据列表
+     *
+     * @param queryWrapper
+     * @param page
+     * @param rows
+     * @return
+     */
+    public IPage<T> queryPageList(QueryWrapper<T> queryWrapper, Integer page,
+                                  Integer rows) {
+        // 获取分页数据
+        return this.mapper.selectPage(new Page<T>(page, rows), queryWrapper);
+    }
 }
